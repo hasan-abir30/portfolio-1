@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Header section design */
+.body {
+    font-family: "Open Sans", sans-serif;
+}
+.nav-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+/* Text design */
+.mary {
+    font-size: 45px;
+    font-weight: 800px;
+}
+.span {
+    color: #FD6E0A;
+}
+/* list item design */
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+/* link design */
+.anchor{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* primary button design */
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
