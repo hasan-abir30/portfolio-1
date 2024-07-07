@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Header section design */
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
 .body {
     font-family: "Open Sans", sans-serif;
 }
@@ -41,5 +46,28 @@ ul li{
     color: #FFFFFF;
     background-color: #FD6E0A;
     padding: 18px 30px;
+    border: none;
     border-radius: 5px;
+}
+/* banner section design */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.Greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.name{
+    font-size: 85px;
+    font-weight: bold;
+}
+.image{
+    width: 584px;
 }
